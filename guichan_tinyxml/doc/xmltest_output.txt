@@ -1,0 +1,38 @@
+** Demo doc read from disk: **
+
+<?xml version="1.0" standalone="no" ?>
+<!-- Our to do list data -->
+<ToDo>
+    <Item priority="1" distance="close">Go to the
+        <bold>Toy store!
+        </bold>
+    </Item>
+    <Item priority="2" distance="none">Do bills
+    </Item>
+    <Item priority="2" distance="far">Look for Evil Dinosaurs!
+    </Item>
+</ToDo>
+
+** Demo doc processed: **
+
+<?xml version="1.0" standalone="no" ?>
+<!-- Our to do list data -->
+<ToDo>
+    <Item priority="2" distance="close">Go to the
+        <bold>Toy store!
+        </bold>
+    </Item>
+    <Item priority="1" distance="far">Talk to:
+        <Meeting where="School">
+            <Attendee name="Marple" position="teacher" />
+            <Attendee name="Voo" position="counselor" />
+        </Meeting>
+        <Meeting where="Lunch" />
+    </Item>
+    <Item priority="2" distance="here">Do bills
+    </Item>
+</ToDo>
+The document contains 3 top level nodes. (3)
+The document contains 3 top level nodes. (3)
+The 'ToDo' element contains 3 elements. (3)
+The 'ToDo' element contains 3 nodes with the value of 'Item'. (3)
